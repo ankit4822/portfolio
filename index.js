@@ -14,7 +14,11 @@ close.addEventListener('click',()=>{
 
 
 
-// changing bg of header
+// changing bg of header...................................
+
+
+
+
 window.addEventListener('scroll',()=>{
     const header=   document.querySelector('.header').classList.toggle('head',window.scrollY>1);
          header.style.display='none';
@@ -23,6 +27,6 @@ window.addEventListener('scroll',()=>{
 
 
 
-//    send massage on email
+
 
 

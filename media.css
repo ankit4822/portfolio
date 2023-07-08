@@ -1,3 +1,4 @@
+
 @media(max-width:1400px){
     .services_content{
         grid-template-columns: repeat(4,280px);
@@ -32,7 +33,7 @@
 }
 
 
-
+/*  media for  ipad.............................................................. */
 @media(max-width:975px){
     .achievment{
         grid-template-columns: 400px;
