@@ -14,7 +14,7 @@ close.addEventListener('click',()=>{
 
 
 
-// changing bg of header...................................
+// changing bg of header...............................
 
 
 
