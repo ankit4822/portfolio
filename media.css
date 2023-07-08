@@ -1,0 +1,257 @@
+@media(max-width:1400px){
+    .services_content{
+        grid-template-columns: repeat(4,280px);
+    }
+
+}
+@media(max-width:1275px){
+    .services_content{
+        grid-template-columns: repeat(2,280px);
+        justify-content: center;
+        gap:40px;
+    
+    }
+    #achievments{
+        margin-top:15rem;
+    }
+}
+@media(max-width:1150px){
+    h1{
+        line-height:50px;
+    }
+    .home-content{
+        gap:15%;
+    }
+    .header{
+        padding :13px 24px; 
+    }
+    .achievment{
+        grid-template-columns: repeat(2,450px);
+    }
+    
+}
+
+
+
+@media(max-width:975px){
+    .achievment{
+        grid-template-columns: 400px;
+    }
+    #contact{
+        margin-top:20rem;
+    }
+    #contact{
+        margin-top:32rem;
+    }
+    #skills {
+        max-width: 1200px;
+        margin: 20rem auto;
+      }
+
+}
+
+@media screen and (max-width:1300px) {
+    
+    
+    .navlinks{
+        position:absolute;
+        top:80px;
+        right:0;
+        
+        
+        height:100vh;
+        width:200px;
+        background:content-box;
+        transition: right .3s ease;
+        /* box-shadow: 5px 5px 10px rgba(0,0,0,0.2); */
+       
+        text-align:center;
+        padding-left:0;
+        border-radius:1rem;
+        
+        
+        
+    }
+    
+    .navlinks ul li {
+        display: block;
+        
+        background:var(--bg-color);
+        padding:24px;
+       
+        
+        
+    }
+    .navlinks ul li a:hover{
+        border-bottom: 5px solid blue;
+    }
+    .open_menu{
+        display:block;
+        color:#444;
+        height:30px;
+        width:30px;
+    }
+    .fa-x{
+        font-size:20px;
+        cursor: pointer;
+    
+    }
+    .close_menu{
+        display: block;
+        color:#444;
+        position: absolute;
+        top:0px;
+        left:0;
+        /* border: 2px solid #444; */
+        
+        width:30px;
+        height:30px;
+        
+        
+        text-align: center;
+        border-radius: 50%;
+        color:#444;
+        font-weight: 600;
+        
+    }
+    
+    .close_menu{
+        display:block;
+    }
+    
+}
+
+
+
+@media(max-width:870px){
+    .home-content{
+        flex-direction: column-reverse;
+        gap:15%;
+        padding:10px;
+    }
+    #home{
+        margin-top:10rem;
+    }
+    .contact_content{
+        grid-template-columns: 1fr;
+        grid-template-rows:18rem 18rem;
+    }
+    .contact_right{
+        background: #fff;
+    }
+    .contact_form{
+        top:5%;
+        height:fit-content;
+    }
+    .footer{
+        position:relative;
+        bottom: 0;
+        top:20rem;
+    }
+    
+}
+
+
+
+
+
+/* about section media */
+
+
+@media(max-width:750px){
+    .about_content{
+        grid-template-columns: 1fr;
+    }
+    #skills {
+        max-width: 1200px;
+        margin-top:34rem;
+      }
+    .about_right p{
+        line-height:25px;
+    }
+    
+    .about_right{
+        width:95%;
+        
+    
+    }
+    #skills{
+        margin-top:25rem;
+    }
+}
+
+@media(max-width:630px){
+    .services_content{
+        grid-template-columns:280px;
+        grid-template-rows:200px;
+        gap:20px;
+    }
+    #skills{
+        margin-top:28rem;
+    }
+.services i{
+    font-size:60px;
+}
+.contact_form{
+    width:70%;
+}
+    #achievments{
+        margin-top:30rem;
+    }
+    
+}
+@media(max-width:450px){
+    .contact_form{
+        width:80%;
+    }
+    .skills{
+        margin-top:30rem;
+    }
+    .skill_content{
+        grid-template-columns: 80%;
+    }
+    .achievment{
+        grid-template-columns: 300px;
+    }
+    #contact{
+        margin-top:15rem;
+    }
+    .about_left{
+        width:250px;
+        height:250px
+    }
+    #skills h2, #achievments h2, #contact h2, #about h2,#services h2{
+        font-size:2rem;
+    }
+}
+@media(max-width:400px){
+    #skills{
+        margin-top:35rem;
+    }
+}
+
+
+@media(max-width:377px){
+    .home_right {
+        width:300px;
+        height:300px;
+    }
+    .home_right img{
+        width:100%;
+        height:100%;
+    }
+    #about h1{
+        font-size:1.5rem;
+    }
+    .footer p{
+        font-size:0.9rem;
+    }
+    #contact{
+        margin-top:20rem;
+    }
+    #skills{
+        margin-top:40rem;
+    }
+    
+    
+}
